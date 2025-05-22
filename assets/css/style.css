@@ -213,6 +213,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
+.welcome-hero-banner {
+    background-image: url('../images/welcome-hero/welcome-banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 103vh;
+    width: 100%;
+}
+
+
 .welcome-hero:before {
     position: absolute;
     content: "";
