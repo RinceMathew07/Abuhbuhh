@@ -22,7 +22,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      min-height: 100vh;
+      justify-content: flex-start;
+      min-height: 100vb;
     }
 
     /* Navbar styles */
@@ -38,14 +39,9 @@
     }
 
     .navbar-container {
-      max-width: 1200px;
-      margin: auto;
       background-color: transparent;
-      padding: 10px 20px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
+      padding: 25px 0px 0px 25px;
+      padding-bottom: 20px; 
     }
 
     .navbar-header a.navbar-brand {
@@ -53,8 +49,7 @@
       font-size: 25px;
       letter-spacing: 3px;
       font-family: 'Rufina', serif;
-      font-weight: 700;
-      padding: 27px 1100px 0px 5px;
+      margin-top: 30px;
       text-decoration: none;
       text-transform: uppercase;
     }
@@ -97,14 +92,13 @@
 
     /* Auth styles */
     .auth-container {
-      width: 100%;
+      margin: 80px auto 40px;
       max-width: 400px;
-      margin: 60px auto 30px;
-      padding: 40px 30px 50px;
+      width: 90%;
+      padding: 40px 20px;
       border-radius: 20px;
       background: rgba(18, 18, 18, 0.6);
-      box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
-      z-index: 1;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
     }
 
     .toggle-btns {
@@ -196,10 +190,7 @@
       }
 
       .navbar-collapse {
-        flex-direction: column;
-        width: 100%;
-        align-items: flex-start;
-        margin-top: 10px;
+        justify-content: center;
       }
 
       ul.navbar-nav {
@@ -213,8 +204,7 @@
       }
 
       .auth-container {
-        padding: 30px 20px;
-        margin: 40px 16px;
+        margin-top: 100px;
       }
 
       .toggle-btn {
